@@ -1,0 +1,139 @@
+/* style.css */
+
+* {
+    font-family: Roboto;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+
+}
+
+button {
+    background-color: #3882F6;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.header,
+.hero {
+    background-color: #1F2937;
+    align-items: center;
+    padding: 4px 350px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-links {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    flex: 1;
+    gap: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.hero-child {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.info-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 4px 500px;
+    padding-bottom: 100px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+/* ------------------- */
+
+
+.main-text,
+.logo-text {
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+.button {
+    background-color: #3882F6;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 500px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: auto;
+}
+
+
+
+
