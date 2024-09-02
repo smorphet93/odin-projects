@@ -34,3 +34,29 @@ function operate(num1, operator, num2) {
             return divide(num1, num2);
     }
 }
+
+
+function display(number) {
+    const screenText = document.querySelector(".screen-text");
+    let displayText = number;
+    screenText.textContent = displayText;
+}
+
+// SELECT ALL NUMBERS AND ASSIGN ONCLICK
+
+const numberButtons = document.querySelectorAll(".num-btn");
+
+numberButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const num = button.textContent;
+        display(num);
+    });
+});
+
+const opButtons = document.querySelectorAll(".op-btn");
+opButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        const num = button.textContent;
+        display(num);
+    });
+});
