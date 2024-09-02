@@ -1,0 +1,77 @@
+button {
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 42px;
+}
+
+.internal-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: #1F2937;
+    border-radius: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.screen {
+    display: flex;
+    width: 80%;
+    height: 20%;
+    background-color: darkgray;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 75%;
+    background-color: darkgray;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.numbers {
+    display: flex;
+    width: 100%;
+    height: 60%;
+    flex-wrap: wrap;
+    justify-items: center;
+    background-color: #1F2937;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-items: center;
+    background-color: #1F2937;
+}
+.functions {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: auto;
+    gap: 10px;
+}
+
+.num-btn {
+    width: calc(100% / 3);
+}
+.op-btn {
+    width: calc(100% / 4);
+}
+.fun-btn {
+    width: calc(100% / 2);
+}
